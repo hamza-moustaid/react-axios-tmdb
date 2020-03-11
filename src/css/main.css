@@ -1,0 +1,134 @@
+body{
+    background:url('../img/back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+#root{
+    
+}
+
+.h1{
+    font-size: 30px !important;
+    color: #fff;
+}
+#header{
+    width: 100%;
+    height: 50px;
+    background-color: #0B252B;
+    box-shadow: 1px 2px 15px black;
+    margin-bottom: 70px;
+}
+#header .movies-link{
+    padding: 13px;
+    width: 50%;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    transition: ease-in-out background .5s;
+}
+#header .movies-link:hover{
+    background: #295F5A;
+}
+
+#header img.logo{
+    width: 120px;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.allmovies-body{
+    margin: 50px 20px 20px 20px;
+}
+
+.card-title{
+    font-size: 18px;
+    height: 90px;
+    color: #fff;
+}
+
+.card-text{
+    height: 165px;
+}
+
+.btn-movie-detail{
+    position: absolute;
+    bottom: 18px;
+    background-color: #0B252B !important;
+    border-color: #0B252B !important;
+}
+.btn-movie-detail:hover{
+    background-color: #295F5A !important;
+}
+
+.card-img-top{
+    box-shadow: 1px 1px 20px 1px black;
+}
+
+.badge-vote{
+    font-size: 16px !important;
+    max-width: 50px;
+    max-height: 50px;
+    position: absolute;
+    padding: 0.8em .7em !important;
+    right: 20px;
+    top: 10px;
+}
+
+.h-moviedetail{
+    display: inline-block;
+    font-weight: bold;
+    color: #0B252B;
+}
+
+.movie-card{
+    background-color: transparent !important;
+    border: none !important;
+    color: #fff;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.movie-detail-div{
+    color: #fff
+}
+
+.recom-div{
+    padding: 20px;
+    color: #fff;
+}
+.recom-div h2{
+    padding: 20px 0;
+}
+
+.pagination{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pagination li a {
+    padding: 10px;
+    margin: 2px;
+    background-color: #0B252B;
+    color: #fff;
+}
+
+.pagination li a:hover{
+    text-decoration: none;
+    background-color: #295F5A;
+}
+.pagination li.disabled a{
+    cursor: initial;
+    background-color: gray;
+}
+
+.pagination li.active a{
+    cursor: initial;
+    background-color: #295F5A;
+}
+
